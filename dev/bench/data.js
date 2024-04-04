@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712237313328,
+  "lastUpdate": 1712237315010,
   "entries": {
     "Rust Benchmark": [
       {
@@ -10510,6 +10510,42 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Iterative/21",
             "value": 5,
             "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "k.trzesniewski@gmail.com",
+            "name": "Chris Trzesniewski",
+            "username": "ktrz"
+          },
+          "committer": {
+            "email": "k.trzesniewski@gmail.com",
+            "name": "Chris Trzesniewski",
+            "username": "ktrz"
+          },
+          "distinct": true,
+          "id": "680c6850672a99a3e2e422e0baa0c4120befd86b",
+          "message": "release v1.20.1",
+          "timestamp": "2024-04-02T10:22:57+02:00",
+          "tree_id": "322077eff6270a9b1706872d4c677750176af5d4",
+          "url": "https://github.com/epompeii/github-action-benchmark/commit/680c6850672a99a3e2e422e0baa0c4120befd86b"
+        },
+        "date": 1712237281138,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bench_fib_10",
+            "value": 158,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_fib_20",
+            "value": 19988,
+            "range": "± 7008",
             "unit": "ns/iter"
           }
         ]
