@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670872667331,
+  "lastUpdate": 1712237287359,
   "entries": {
     "Rust Benchmark": [
       {
@@ -17945,6 +17945,60 @@ window.BENCHMARK_DATA = {
             "value": 56341,
             "unit": "ns/op",
             "extra": "30000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "k.trzesniewski@gmail.com",
+            "name": "Chris Trzesniewski",
+            "username": "ktrz"
+          },
+          "committer": {
+            "email": "k.trzesniewski@gmail.com",
+            "name": "Chris Trzesniewski",
+            "username": "ktrz"
+          },
+          "distinct": true,
+          "id": "680c6850672a99a3e2e422e0baa0c4120befd86b",
+          "message": "release v1.20.1",
+          "timestamp": "2024-04-02T10:22:57+02:00",
+          "tree_id": "322077eff6270a9b1706872d4c677750176af5d4",
+          "url": "https://github.com/epompeii/github-action-benchmark/commit/680c6850672a99a3e2e422e0baa0c4120befd86b"
+        },
+        "date": 1712237285856,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 310.6,
+            "unit": "ns/op",
+            "extra": "3874321 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 39709,
+            "unit": "ns/op",
+            "extra": "30412 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric",
+            "value": 39629,
+            "unit": "ns/op\t         4.000 auxMetricUnits",
+            "extra": "30252 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - ns/op",
+            "value": 39629,
+            "unit": "ns/op",
+            "extra": "30252 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - auxMetricUnits",
+            "value": 4,
+            "unit": "auxMetricUnits",
+            "extra": "30252 times\n4 procs"
           }
         ]
       }
@@ -41662,5 +41716,5 @@ window.BENCHMARK_DATA = {
       }
     ]
   },
-  "repoUrl": "https://github.com/benchmark-action/github-action-benchmark"
+  "repoUrl": "https://github.com/epompeii/github-action-benchmark"
 }
